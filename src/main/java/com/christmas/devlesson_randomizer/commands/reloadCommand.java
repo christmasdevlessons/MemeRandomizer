@@ -16,7 +16,9 @@ public class reloadCommand implements CommandExecutor {
             Player p = (Player) sender;
             if(p.hasPermission("randomizer.reload")){
                 // reload thing code stuff yes E
+                mainclass.reloadConfig();
                 mainclass.setMemes(config.getStringList("config.memes"));
+
             }
         }else{
             mainclass.setMemes(config.getStringList("config.memes"));

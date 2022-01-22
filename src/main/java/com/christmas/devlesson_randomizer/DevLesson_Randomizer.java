@@ -30,6 +30,7 @@ public final class DevLesson_Randomizer extends JavaPlugin {
         config.options().copyDefaults();
         saveDefaultConfig();
 
+
         memes = config.getStringList("config.memes"); // meme list, so all memes in an arraylist: 'meme1, meme2, etc'
         memecount = memes.size(); // amount of memes in there 3, 2 or 1
 
