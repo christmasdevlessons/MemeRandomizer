@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 
 public class reloadCommand implements CommandExecutor {
     DevLesson_Randomizer mainclass = DevLesson_Randomizer.getPlugin();
-    FileConfiguration config = mainclass.getconfig();
+    FileConfiguration config = mainclass.getmainConfig();
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(sender instanceof Player){
