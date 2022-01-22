@@ -1,0 +1,12 @@
+name: DevLesson_Randomizer
+version: '${project.version}'
+main: com.christmas.devlesson_randomizer.DevLesson_Randomizer
+api-version: 1.17
+authors: [ christmas ]
+description: This Plugin randomizes memes and many other things :D
+website: http://ch3dp.cf
+commands:
+  getmeme:
+    description: fuck
+  reloadmemes:
+    description: yes
